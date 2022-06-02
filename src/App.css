@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+.flyer {
+  padding: 3%;
+  margin: 18px 0px;
+  height: 300px;
+  border-radius: 3px;
+  box-shadow: 1px 3px 6px #ccc;
+  background: url("./img/background1.jpg");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flyer .title {
+  color: aliceblue;
+  text-shadow: 1px 1px 6px #000;
+  width: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flyer .text {
+  width: 50%;
+  text-shadow: 1px 1px 6px #000;
+  font-size: 18px;
+  color: aliceblue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about {
+  background: rgb(239, 239, 239);
+  padding: 3%;
+  border-radius: 3px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about p {
+  text-align: justify;
 }
